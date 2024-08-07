@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".field-text"),t=!0,r=!1,l=void 0;try{for(var a,n=e[Symbol.iterator]();!(t=(a=n.next()).done);t=!0){var o=a.value,i=o.id,c=document.createElement("label");c.className="field-label",c.setAttribute("for",i);var d=o.name.replace(/([a-z])([A-Z])/g,"$1 $2");c.textContent=d;var u=d.charAt(0).toUpperCase()+d.slice(1);o.setAttribute("placeholder",u),o.parentNode.appendChild(c)}}catch(e){r=!0,l=e}finally{try{t||null==n.return||n.return()}finally{if(r)throw l}}
+//# sourceMappingURL=index.d8f2cd1f.js.map
